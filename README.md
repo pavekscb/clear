@@ -72,7 +72,7 @@ pip install pyinstaller
 
 * Выполните команду сборки (флаги автоматически упакуют графику внутрь и скроют консольное окно):
 ```bash
-pyinstaller --noconfirm --onefile --windowed --add-data "icon_temp.png;." --add-data "icon_chrome.png;." --add-data "icon_trash.png;." --add-data "icon_all.png;." --add-data "icon_refresh.png;." --add-data "logo.png;." --icon "app_icon.ico" main.py
+pyinstaller --noconfirm --onefile --windowed --add-data "icon_temp.png;." --add-data "icon_chrome.png;." --add-data "icon_trash.png;." --add-data "icon_all.png;." --add-data "icon_refresh.png;." --add-data "logo.png;." --icon "app_ic.ico" main.py
 
 ```
 
